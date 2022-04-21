@@ -1,7 +1,7 @@
 # Hierarchical Clustering based Tunable Coding Unit Division for Video-based Point Cloud Coding 
 This is the official repository of source codes and deployment methods for the paper "Hierarchical Clustering based Tunable Coding Unit Division for Video-based Point Cloud Coding".
 
-<b>If you have a certain understanding of tmc2 and HM, you can skip subsequent lengthy instructions and directly use the source under “/external/HM-HM-16.20+SCM-8.8” to change the source of original HM and check the methods described in our paper.</b>
+<b>If you have a certain understanding of TMC2 and HM, you can skip subsequent lengthy instructions and directly use the source under “/external/HM-HM-16.20+SCM-8.8” to change the source of original HM and check the methods described in our paper.</b>
 
 ## Resource Link
 The program versions used in the experiment are as follows (You can get their official versions through the link after quotation marks): 
@@ -14,9 +14,9 @@ The program versions used in the experiment are as follows (You can get their of
 In order to reduce the size of GitHub uploaded files, only some key files are uploaded. If necessary, please download the official version in the above link and replace it with the files provided by this repository. A brief introduction to the files provided is listed below: (You can skip this section and see How to Use It)
 
 ### mpeg-pcc-tmc2-release-v8.0
-This folder contains tmc2-v8 0 program, please pay attention to the following points: 
+This folder contains TMC2-v8.0 program, please pay attention to the following points: 
 1. Under this folder, we provide an example of the script used for reference: BP_soldier32_LIYUE_SI1_2.sh. Please modify the path in the shell file according to the actual deployment of your computer. If there is no modification after downloading this repository, run this shell after correctly deploying the input file to start the operation of the <b>sequence soldier</b> in Table 11 in the paper. The reconstruction results are saved in the output folder and the console output is saved in the statisticdata folder.
-2. "/mpeg-pcc-tmc2-release-v8.0/cfg/sequencehas" been modified according to the above shell，please ensure that the point cloud files of 8i-vox10 or owlii-vox11 officially provided by MPEG are extracted into ply folder according to the default path, if you want to use our shell.
+2. "/mpeg-pcc-tmc2-release-v8.0/cfg/sequence" has been modified according to the above shell，please ensure that the point cloud files of 8iVSLF-vox10 or owlii-vox11 officially provided by MPEG are extracted into ply folder according to the default path, if you want to use our shell.
 
 ### external
 1. HDRTools-v0.18, executable file HDRConvert.exe has been generated under “/external/HDRTools-v0.18/bin”.
@@ -30,7 +30,7 @@ ply stores the input file of the point cloud, output stores the output file of t
 ## How to Use It
 First of all, it should be noted that MPEG does not provide the test sequence of the vox10 version of the 8iVSLF data set used in the paper, but provides the video of the corresponding vox12 version. The download address of the test sequence is: https://mpeg-pcc.org/index.php/pcc-content-database/
 
-In the test sequence set of vox12, the sequences of queen, lot, redandblack, soldier and longpress used in our paper are only provided with one frame, which means that if you want to reproduce our results, you may need to obtain these test sequences through other methods or use the latest test sequence provided by 8ivslf 	 Thaidancer experiment -- thaidancer was provided with 300 frames, while the basketball and dance sequences of owlii data set were not affected.
+In the test sequence set of vox12, the sequences of queen, lot, redandblack, soldier and longpress used in our paper are only provided with one frame, which means that if you want to reproduce our results, you may need to obtain these test sequences through other methods or use the latest test sequence provided by 8iVSLF Thaidancer experiment -- thaidancer was provided with 300 frames, while the basketball and dance sequences of owlii data set were not affected.
 
 
 After TMC2 and HM without source change are deployed correctly (if you don't know how to deploy, you can check the first link given in the Resource Link part)
