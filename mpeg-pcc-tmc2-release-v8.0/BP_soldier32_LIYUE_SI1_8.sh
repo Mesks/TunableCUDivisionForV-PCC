@@ -11,7 +11,7 @@ CFGDIR=${MAINDIR}"/cfg/";
 THREAD=1;
 SEQ=25;       # in [22;28]
 COND="C2RA";       # in [C2AI, C2LD, CWAI, CWRA]
-FRAMECOUNT=32;
+FRAMECOUNT=1;
 MANNER="SI1_8";
 
 ## Set external tool paths
