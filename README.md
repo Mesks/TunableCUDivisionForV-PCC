@@ -16,7 +16,7 @@ In order to reduce the size of GitHub uploaded files, only some key files are up
 ### mpeg-pcc-tmc2-release-v8.0
 This folder contains TMC2-v8.0 program, please pay attention to the following points: 
 1. Under this folder, we provide an example of the script used for reference: BP_soldier32_LIYUE_SI1_2.sh. Please modify the path in the shell file according to the actual deployment of your computer. If there is no modification after downloading this repository, run this shell after correctly deploying the input file to start the operation of the <b>sequence soldier</b> in Table 11 in the paper. The reconstruction results are saved in the output folder and the console output is saved in the statisticdata folder.
-2. "/mpeg-pcc-tmc2-release-v8.0/cfg/sequence" has been modified according to the above shell，please ensure that the point cloud files of 8iVSLF-vox10 or owlii-vox11 officially provided by MPEG are extracted into ply folder according to the default path, if you want to use our shell.
+2. The cfg files under "/mpeg-pcc-tmc2-release-v8.0/cfg/sequence" has been modified according to the above shell，please ensure that the point cloud files of 8iVSLF-vox10 or owlii-vox11 officially provided by MPEG are extracted into ply folder according to the default path, if you want to use our shell.
 
 ### external
 1. HDRTools-v0.18, executable file HDRConvert.exe has been generated under “/external/HDRTools-v0.18/bin”.
