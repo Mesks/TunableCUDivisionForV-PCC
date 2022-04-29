@@ -29,7 +29,7 @@ ply stores the input file of the point cloud, output stores the output file of t
 <br/>These three files ensure that the script provided by us can run normally on your computer. If you don't want to use the script provided by us, you can set it according to your own preferences.
 
 ### mpeg-pcc-tmc2-release-v7.0.zip
-Because the paper also contains TMC2-v7.0, we also give TMC2-v7.0's source file compressed package, and the folder is similar to v8.0, which contains cfg storage configuration file, source storage source file, dependencies storage TMC2-v7.0 to HM patch file and a CMakeLists.txt
+Because the paper also contains TMC2-v7.0, we also give TMC2-v7.0's source file compressed package, and the folder is similar to v8.0, which contains cfg storage configuration file, source storage source file, dependencies storage TMC2-v7.0 to HM patch file and a CMakeLists.txt.
 
 ## How to Use It
 First of all, it should be noted that MPEG does not provide the test sequence of the vox10 version of the 8iVSLF data set used in the paper, but provides the video of the corresponding vox12 version. The download address of the test sequence is: https://mpeg-pcc.org/index.php/pcc-content-database/
