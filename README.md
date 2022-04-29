@@ -1,7 +1,7 @@
 # Hierarchical Clustering based Tunable Coding Unit Division for Video-based Point Cloud Coding 
 This is the official repository of source codes and deployment methods for the paper "Hierarchical Clustering based Tunable Coding Unit Division for Video-based Point Cloud Coding".
 
-<b>If you have a certain understanding of TMC2 and HM, you can skip subsequent lengthy instructions and directly use the source under “/external/HM-HM-16.20+SCM-8.8” to change the source of original HM and check the methods described in our paper.</b>
+<b>If you have contacted TMC2 and HM, you can skip subsequent lengthy instructions and directly use the source under “/external/HM-HM-16.20+SCM-8.8” to change the source of original HM and check the methods described in our paper.</b>
 
 ## Resource Link
 The program versions used in the experiment are as follows (You can get their official versions through the link after quotation marks): 
