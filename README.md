@@ -32,8 +32,6 @@ ply stores the input file of the point cloud, output stores the output file of t
 Because the paper also contains TMC2-v7.0, we also give TMC2-v7.0's source file compressed package, and the folder is similar to v8.0, which contains cfg storage configuration file, source storage source file, dependencies storage TMC2-v7.0 to HM patch file and a CMakeLists.txt.
 
 ## How to Use It
-The download address of the test sequence is: https://mpeg-pcc.org/index.php/pcc-content-database/
-
 After TMC2 and HM without source change are deployed correctly (if you don't know how to deploy, you can check the first link given in the Resource Link part)
 1. Please use the source folder under "/external/HM-HM-16.20+SCM-8.8" to replace the original source of HM. Note that the "source" provided by us has been patched and does not need to be patched with the patch file provided by TMC2. Under "/external/HM-Reference-bin", we provide the HM executable file with CU decision applied under different thresholds used in our paper, for example, C2AI_SI0 the suffix of six means method under SI_0 in the AI coding configuration, method corresponding to table6 in the paper;
 2. Then you can call the executable file of the external HM through TMC2 to encode. About the call of TMC2, we provide the executable file of TMC2 under "/mpeg-pcc-tmc2-release-v8.0/bin/Release" and the shell file we used in the experiment "/mpeg-pcc-tmc2-release-v8.0/BP_soldier32_LIYUE_SI1_8.sh" for your reference. If you want to call this shell directly in your environment, you may need to change some configurations according to the actual situation.
