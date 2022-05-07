@@ -32,10 +32,7 @@ ply stores the input file of the point cloud, output stores the output file of t
 Because the paper also contains TMC2-v7.0, we also give TMC2-v7.0's source file compressed package, and the folder is similar to v8.0, which contains cfg storage configuration file, source storage source file, dependencies storage TMC2-v7.0 to HM patch file and a CMakeLists.txt.
 
 ## How to Use It
-First of all, it should be noted that MPEG does not provide the test sequence of the vox10 version of the 8iVSLF data set used in the paper, but provides the video of the corresponding vox12 version. The download address of the test sequence is: https://mpeg-pcc.org/index.php/pcc-content-database/
-
-In the test sequence set of vox12, the sequences of queen, lot, redandblack, soldier and longpress used in our paper are only provided with one frame, which means that if you want to reproduce our results, you may need to obtain these test sequences through other methods or use the latest test sequence provided by 8iVSLF Thaidancer experiment -- thaidancer was provided with 300 frames, while the basketball and dance sequences of owlii data set were not affected.
-
+The download address of the test sequence is: https://mpeg-pcc.org/index.php/pcc-content-database/
 
 After TMC2 and HM without source change are deployed correctly (if you don't know how to deploy, you can check the first link given in the Resource Link part)
 1. Please use the source folder under "/external/HM-HM-16.20+SCM-8.8" to replace the original source of HM. Note that the "source" provided by us has been patched and does not need to be patched with the patch file provided by TMC2. Under "/external/HM-Reference-bin", we provide the HM executable file with CU decision applied under different thresholds used in our paper, for example, C2AI_SI0 the suffix of six means method under SI_0 in the AI coding configuration, method corresponding to table6 in the paper;
